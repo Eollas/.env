@@ -95,6 +95,11 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias nnao='nano'
+alias nnoa='nano'
+alias nona='nano'
+
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -123,3 +128,8 @@ fi
 if [ -x /usr/bin/mint-fortune ]; then
      /usr/bin/mint-fortune
 fi
+
+
+
+export PATH="$PATH:/home/roux/.env/bin"
+
