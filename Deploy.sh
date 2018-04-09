@@ -1,8 +1,9 @@
 #!/bin/bash
 
-cp ~/.bashrc $1/.env/backup
-cp ~/.profile $1/.env/backup
-cp ~/.Xdefault $1/.env/backup
-cp ~/.ssh $1/.env/backup
+mv ~/.bashrc ~/.env/backup
+mv ~/.profile ~/.env/backup
+mv ~/.Xdefault ~/.env/backup
+mv ~/.ssh ~/.env/backup
 
+ln -s ~/.env/files/bashrc ~/.bashrc
  
