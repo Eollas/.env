@@ -1,1 +1,13 @@
-profile perso
+################  profile perso ##############
+
+##### Car c'ets un .profile de base trouvé sur un docker et ça me semblait pas mal ############
+
+if [ "$BASH" ]; then
+  if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+  fi
+fi
+
+mesg n || true
+
+
