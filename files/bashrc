@@ -64,3 +64,4 @@ alias nnoa='nano'
 ###### Les variables d'environement qui vont bien #########
 
 PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/.env/bin
+LD_LIBRARY_PATH=~/.env/bin
