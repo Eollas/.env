@@ -1,2 +1,1 @@
-# local
-
+/home/yrozanes/.env/files/bashrc
